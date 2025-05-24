@@ -21,7 +21,7 @@ if (!defined('APP_NAME')) {
 }  
 
 if (!defined('APP_URL')) {  
-    define('APP_URL', 'http://localhost/Daniel/sige');  
+    define('APP_URL', 'http://localhost/proyectonuevo/sige');  
 }  
 
 if (!defined('KEY_API_MAPS')) {  

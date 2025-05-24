@@ -1,6 +1,6 @@
 <?php
 // app/config.php
-define('APP_URL', 'http://localhost/Daniel/sige');
+define('APP_URL', 'http://localhost/proyectonuevo/sige');
 
 // Database configuration
 $db_host = 'localhost';
