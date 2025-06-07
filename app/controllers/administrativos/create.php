@@ -14,7 +14,7 @@ $direccion = $_POST['direccion'];
 
 $pdo->beginTransaction();
 
-///////////////////////// INSERTAR A LA TABLA USUARIOS
+///////////////////////// INSERTAR A LA TABLA USUARIOSs
 $password = password_hash($ci, PASSWORD_DEFAULT);
 
 $sentencia = $pdo->prepare('INSERT INTO usuarios
