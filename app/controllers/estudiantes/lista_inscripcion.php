@@ -1,7 +1,7 @@
 <?php  
  
 
-// Obtener el periodo académico activoo
+// Obtener el periodo académico activooo
 $sql_gestiones = "SELECT * FROM gestiones WHERE estado = 1 ORDER BY desde DESC LIMIT 1"; // Suponiendo que el estado 1 es activo
 $query_gestiones = $pdo->prepare($sql_gestiones);
 $query_gestiones->execute();
